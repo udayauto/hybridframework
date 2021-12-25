@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="5">
+  <test thread-count="5" name="Login">
+    <classes>
+     <class name="browser.automation.ChromeBrowserAutomation"/>
+      <class name="browser.automation.EdgeAutomation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
